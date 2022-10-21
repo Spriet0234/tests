@@ -1,9 +1,10 @@
 body{
-    font-family: sans-serif;
+    font-family: Inter;
+    margin: 0;
 }
 #head{
     display: block;
-    background-color: rgb(79, 120, 172);
+    background-color: rgb(152, 39, 8);
     height: 50px;
 
 }
@@ -15,7 +16,8 @@ body{
     margin: 0 auto;
     font-weight: normal;
     font-size: 22px;
-    color:white
+    color:white;
+    font-weight: 300;
 
 }
 #body{
@@ -24,18 +26,18 @@ body{
     width: 250px;
     border-style: solid;
     border-width: 1px;
-    padding: 30px;
-    padding-bottom: 80px;
-    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 60px;
+    border-radius: 5px;
 }
 input{
-    margin-bottom:3px;
+    margin-bottom:12px;
     margin-top: 3px;
 }
 button{
     margin-top:10px;
     margin: 20px auto;
-    background-color: rgb(79, 120, 172);
+    background-color: rgb(152, 39, 8);
     color: white;
     font-size: 16px;
     width: 250px;
@@ -43,5 +45,27 @@ button{
     border-width: 0px;
 }
 button:hover{
-    background-color: rgb(101, 146, 185);
+    background-color: rgb(190, 53, 15);
 }
+
+#result{
+    font-size: 30px;
+    border: 0;
+    font-weight: 200;
+}
+#ans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-style: solid;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+/*#para{
+    left: 30px;
+    padding: 10px;
+    padding-left: 70px;
+    font-size: 30px;
+}*/
